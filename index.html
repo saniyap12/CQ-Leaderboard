@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Quiz Leaderboard</title>
+<title>Cubbon Quizzes Leaderboard</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -277,7 +277,7 @@
 <div class="container">
   <div class="meta-row" id="meta-row"></div>
   <div class="title-block">
-    <h1>Leaderboard</h1>
+    <h1>Cubbon Quizzes Leaderboard</h1>
     <p class="title-sub">Weekly Rankings</p>
   </div>
   <div id="content">
@@ -319,7 +319,7 @@
   function render(rows) {
     if (!rows.length) {
       document.getElementById('content').innerHTML =
-        '<p class="status"><span class="emoji">🤔</span>No data found in CSV.</p>';
+        '<p class="status">No data found in CSV.</p>';
       return;
     }
 
